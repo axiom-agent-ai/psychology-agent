@@ -21,6 +21,20 @@ body{background:#0a0a0f;color:#c9d1d9;font-family:'Segoe UI',system-ui,sans-seri
 .modality h3{color:#f0883e;margin-bottom:16px}
 .modality-tags{display:flex;flex-wrap:wrap;gap:10px}
 .tag{background:#21262d;color:#c9d1d9;padding:6px 14px;border-radius:20px;font-size:0.85em;border:1px solid #30363d}
+.demo-section{background:#161b22;border:1px solid #30363d;border-radius:8px;padding:30px;margin-bottom:40px}
+.demo-section h3{color:#58a6ff;margin-bottom:6px;font-size:1.2em}
+.demo-section .subtitle{color:#8b949e;font-size:0.9em;margin-bottom:24px}
+.demo-input{background:#0d1117;border:1px solid #30363d;border-radius:6px;padding:16px;margin-bottom:24px;font-size:0.9em}
+.demo-input strong{color:#f0883e}
+.demo-input em{color:#8b949e;font-style:normal}
+.soap-note{background:#0d1117;border:1px solid #30363d;border-radius:6px;padding:20px;font-size:0.9em;line-height:1.7}
+.soap-note .label{color:#58a6ff;font-weight:700;margin-top:14px;display:block}
+.soap-note .label:first-child{margin-top:0}
+.soap-note .content{color:#c9d1d9}
+.soap-note .clinical{color:#8b949e;font-style:italic}
+.soap-note .risk{color:#f85149}
+.voice-note{background:#1a2332;border:1px solid #30363d;border-radius:6px;padding:14px;margin-top:20px;font-size:0.88em;color:#8b949e}
+.voice-note strong{color:#58a6ff}
 .cta-section{background:#161b22;border:1px solid #30363d;border-radius:8px;padding:40px;text-align:center;margin:40px auto;max-width:600px}
 .cta-section h2{color:#58a6ff;margin-bottom:16px}
 .cta-section p{color:#8b949e;margin-bottom:24px}
@@ -76,15 +90,42 @@ footer{text-align:center;padding:30px;color:#484f58;font-size:0.85em}
 <span class="tag">Schema Therapy</span>
 </div>
 </div>
+
+<div class="demo-section">
+<h3>See It In Action</h3>
+<p class="subtitle">You didn't spend years training to write SOAP notes. You trained to help people change.</p>
+
+<div class="demo-input">
+<strong>Input:</strong> <em>"28-year-old female, CBT framework. Today we explored the relationship between her fear of rejection and core belief of unworthiness. She had an emotional breakthrough. Risk assessment: no SI, no safety concerns. Assigned cognitive restructuring homework."</em>
+</div>
+
+<div class="soap-note">
+<span class="label">S — SUBJECTIVE:</span>
+<span class="content">Client reports significant emotional breakthrough during session, describing a felt sense of clarity regarding the connection between rejection fears and core belief of unworthiness. Client engaged actively with cognitive restructuring work. Endorses no suicidal ideation, no plan, no intent. Safety assessment conducted and negative.</span>
+
+<span class="label">O — OBJECTIVE:</span>
+<span class="content">Affect: spontaneous, tearful at times, ultimately brightens. Behavior: cooperative, reflective, engaged in Socratic questioning. Cognition: demonstrates insight into cognitive distortions. No psychomotor agitation or retardation.</span>
+
+<span class="label">A — ASSESSMENT:</span>
+<span class="content">Client demonstrated notable progress in identifying cognitive distortions linking rejection sensitivity to core belief of unworthiness. Therapeutic alliance intact. Progress toward treatment goals observed. Risk: low.</span>
+
+<span class="label">P — PLAN:</span>
+<span class="content">1. Continue CBT framework for anxiety/depression. 2. Assign cognitive restructuring homework: identify automatic thoughts related to rejection scenarios and generate alternative responses. 3. Explore schema work in next session if appropriate. 4. Follow up on homework at next session. 5. No changes to current safety plan needed.</span>
+</div>
+
+<div class="voice-note">
+<strong>Your voice, not the AI's.</strong> The structure is the agent's. The clinical judgment is always yours. Review, adjust, sign.
+</div>
+</div>
+
 </div>
 <div class="cta-section">
-<h2>Built for Practitioners</h2>
-<p>Shadow Agent kit + Psychology-specific agents. Works offline. Self-corrects. Speaks in short sentences.</p>
-<a href="https://giaktis.gumroad.com/l/Psychology" class="btn">Get Psychology on Gumroad →</a>
+<h2>Ready to reclaim your sessions?</h2>
+<p>$100 for the complete Psychology agent kit. No subscriptions. No client data stored. Your clinical judgment, always.</p>
+<a href="https://giaktis.gumroad.com/l/Psychology" class="btn">Get Started →</a>
 </div>
 <footer>
-SOUL Psychology — part of the SOUL Squad agent collection.<br>
-Not for direct client use. Requires licensed practitioner review.
+<p>For licensed mental health practitioners. Not for clients. Not for diagnosis. Not a crisis responder.</p>
 </footer>
 </body>
 </html>
